@@ -37,5 +37,5 @@
 			}
 		}
 	}
-      customElements.define("com-ujjwal-sap-coloredbox", coloredboxWidget);
+      customElements.define("com-sap-sample-coloredbox", ColoredBox);
   })();
