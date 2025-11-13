@@ -48,7 +48,6 @@
 			return this._shadowRoot.getElementById("builder_opacity").value;
 		}
 	}
-     customElements.define("com-ujjwal-sap-coloredbox-builder", 
-     coloredboxWidgetBuilderPanel
-     );
-  })();
+
+	customElements.define("com-sap-sample-coloredbox-builder", ColoredBoxBuilderPanel);
+})();
