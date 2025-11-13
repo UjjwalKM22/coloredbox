@@ -1,77 +1,77 @@
 {
-    "id": "com.rohitchouhan.ujjwal.coloredbox",
-    "version": "1.0.0",
-    "name": "coloredbox",
-    "description": "Colored BAx Widget",
-    "newInstancePrefix": "coloredbox",
-    "vendor": "Ujjwal",
-    "eula": "",
-    "license": "MIT",
-    "icon": "https://raw.githubusercontent.com/UjjwalKM22/coloredbox/main/icon.png",
-    "webcomponents": [
-        {
-            "kind": "main",
-            "tag": "com-ujjwal-sap-coloredbox",
-            "url": "https://cdn.jsdelivr.net/gh/UjjwalKM22/coloredbox/coloredbox.js",
-            "integrity": "",
-            "ignoreIntegrity": true
-        },
-        {
-            "kind": "styling",
-            "tag": "com-ujjwal-sap-coloredbox-styling",
-            "url": "https://cdn.jsdelivr.net/gh/UjjwalKM22/coloredbox/coloredbox_Styling.js",
-            "integrity": "",
-            "ignoreIntegrity": true
-        },
-        {
-            "kind": "builder",
-            "tag": "com-ujjwal-sap-coloredbox-builder",
-            "url": "https://cdn.jsdelivr.net/gh/UjjwalKM22/coloredbox/coloredbox_Builder.js",
-            "integrity": "",
-            "ignoreIntegrity": true
-        }
-    ],
-    "properties": {
-        "color": {
-            "type": "string",
-            "description": "Background color",
-            "default": "red"
-        },
-        "opacity": {
-            "type": "number",
-            "description": "Opacity",
-            "default": 1
-        },
-        "width": {
-            "type": "integer",
-            "default": 100
-        },
-        "height": {
-            "type": "integer",
-            "default": 100
-        }
-    },
-    "methods": {
-        "setColor": {
-            "description": "Sets the background color.",
-            "parameters": [
-                {
-                    "name": "newColor",
-                    "type": "string",
-                    "description": "The new background color"
-                }
-            ],
-            "body": "this.color = newColor;"
-        },
-        "getColor": {
-            "returnType": "string",
-            "description": "Returns the background color.",
-            "body": "return this.color;"
-        }
-    },
-    "events": {
-        "onClick": {
-            "description": "Called when the user clicks the Colored Box."
-        }
-    }
+	"id": "com.sap.ujjwal.coloredbox",
+	"version": "1.0.0",
+	"name": "coloredbox",
+	"description": "A colored box",
+	"newInstancePrefix": "ColoredBox",
+	"icon": "https://raw.githubusercontent.com/UjjwalKM22/coloredbox/main/icon.png",
+	"vendor": "Ujjwal",
+	"eula": "",
+	"license": "MIT",
+	"webcomponents": [
+		{
+			"kind": "main",
+			"tag": "com-sap-sample-coloredbox",
+			"url": "https://cdn.jsdelivr.net/gh/UjjwalKM22/coloredbox/coloredbox.js",
+			"integrity": "",
+			"ignoreIntegrity": true
+		},
+		{
+			"kind": "styling",
+			"tag": "com-sap-sample-coloredbox-styling",
+			"url": "https://cdn.jsdelivr.net/gh/UjjwalKM22/coloredbox/coloredbox_Styling.js",
+			"integrity": "",
+			"ignoreIntegrity": true
+		},
+		{
+			"kind": "builder",
+			"tag": "com-sap-sample-coloredbox-builder",
+			"url": "https://cdn.jsdelivr.net/gh/UjjwalKM22/coloredbox/coloredbox_Builder.js",
+			"integrity": "",
+			"ignoreIntegrity": true
+		}
+	],
+	"properties": {
+		"color": {
+			"type": "string",
+			"description": "Background color",
+			"default": "red"
+		},
+		"opacity": {
+			"type": "number",
+			"description": "Opacity",
+			"default": 1
+		},
+		"width": {
+			"type": "integer",
+			"default": 100
+		},
+		"height": {
+			"type": "integer",
+			"default": 100
+		}
+	},
+	"methods": {
+		"setColor": {
+			"description": "Sets the background color.",
+			"parameters": [
+				{
+					"name": "newColor",
+					"type": "string",
+					"description": "The new background color"
+				}
+			],
+			"body": "this.color = newColor;"
+		},
+		"getColor": {
+			"returnType": "string",
+			"description": "Returns the background color.",
+			"body": "return this.color;"
+		}
+	},
+	"events": {
+		"onClick": {
+			"description": "Called when the user clicks the Colored Box."
+		}
+	}
 }
