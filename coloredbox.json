@@ -6,24 +6,28 @@
     "newInstancePrefix": "ColoredBox",
     "icon": "https://raw.githubusercontent.com/UjjwalKM22/coloredbox/main/icon.png",
     "vendor": "Ujjwal",
+    "eula": "",
     "license": "MIT",
     "webcomponents": [
         {
             "kind": "main",
             "tag": "com-sap-sample-coloredbox",
             "url": "https://cdn.jsdelivr.net/gh/UjjwalKM22/coloredbox/coloredbox.js",
+            "integrity": "",
             "ignoreIntegrity": true
         },
         {
             "kind": "styling",
             "tag": "com-sap-sample-coloredbox-styling",
             "url": "https://cdn.jsdelivr.net/gh/UjjwalKM22/coloredbox/coloredbox_Styling.js",
+            "integrity": "",
             "ignoreIntegrity": true
         },
         {
             "kind": "builder",
             "tag": "com-sap-sample-coloredbox-builder",
             "url": "https://cdn.jsdelivr.net/gh/UjjwalKM22/coloredbox/coloredbox_Builder.js",
+            "integrity": "",
             "ignoreIntegrity": true
         }
     ],
